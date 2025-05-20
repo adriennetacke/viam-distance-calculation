@@ -9,7 +9,7 @@
       "api": "rdk:component:sensor",
       "model": "atacke:distance-calculation:ultrasonic-distance-calculation",
       "short_description": "Custom sensor module that returns ultrasonic sensor readings in centimeters and inches.",
-      "markdown_link": "README.md#model-atackedistance-calculationultrasonic-distance-calculation"
+      "markdown_link": "README.md#configuration"
     }
   ],
   "applications": null,
