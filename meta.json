@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "atacke:distance-calculation",
+  "visibility": "public",
+  "url": "https://github.com/adriennetacke/viam-distance-calculation",
+  "description": "Modular sensor component: ultrasonic-distance-calculation",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "atacke:distance-calculation:ultrasonic-distance-calculation",
+      "short_description": "Custom sensor module that returns ultrasonic sensor readings in centimeters and inches.",
+      "markdown_link": "README.md#model-atackedistance-calculationultrasonic-distance-calculation"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "dist/main",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}
